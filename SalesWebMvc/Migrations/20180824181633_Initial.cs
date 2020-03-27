@@ -11,7 +11,7 @@ namespace SalesWebMvc.Migrations
                 name: "Department",
                 columns: table => new
                 {
-                    Id = table.Column<uint>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true)
                 },

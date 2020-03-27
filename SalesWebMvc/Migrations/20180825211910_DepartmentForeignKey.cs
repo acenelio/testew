@@ -10,11 +10,11 @@ namespace SalesWebMvc.Migrations
                 name: "FK_Seller_Department_DepartmentId",
                 table: "Seller");
 
-            migrationBuilder.AlterColumn<uint>(
+            migrationBuilder.AlterColumn<int>(
                 name: "DepartmentId",
                 table: "Seller",
                 nullable: false,
-                oldClrType: typeof(uint),
+                oldClrType: typeof(int),
                 oldNullable: true);
 
             migrationBuilder.AddForeignKey(
@@ -32,11 +32,11 @@ namespace SalesWebMvc.Migrations
                 name: "FK_Seller_Department_DepartmentId",
                 table: "Seller");
 
-            migrationBuilder.AlterColumn<uint>(
+            migrationBuilder.AlterColumn<int>(
                 name: "DepartmentId",
                 table: "Seller",
                 nullable: true,
-                oldClrType: typeof(uint));
+                oldClrType: typeof(int));
 
             migrationBuilder.AddForeignKey(
                 name: "FK_Seller_Department_DepartmentId",
